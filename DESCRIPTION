@@ -16,7 +16,6 @@ Description: Vector Graphics devices for 'Microsoft PowerPoint' and
  'Microsoft Excel'. Functions extending package 'officer' are provided to 
  embed 'DrawingML' graphics into 'Microsoft PowerPoint' presentations and 
  'Microsoft Excel' workbooks.
-SystemRequirements: libpng
 License: GPL-3
 Encoding: UTF-8
 Depends:
