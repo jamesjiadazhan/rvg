@@ -46,7 +46,12 @@ dml_pptx <- function(file = "Rplots.dml", width = 6, height = 6,
                      pointsize = 12, editable = TRUE,
                      id = 1L, last_rel_id = 1L,
                      raster_prefix = "raster_", standalone = TRUE) {
-  system_fonts <- validate_fonts(fonts)
+  system_fonts <- c(
+      sans = "Helvetica",
+      serif = "Times",
+      mono = "Courier",
+      symbol = "Symbol"
+    )
   invisible(PPTX_(file, bg, width, height,
     offx = offx, offy = offy,
     pointsize = pointsize,
